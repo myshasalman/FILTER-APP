@@ -1,0 +1,18 @@
+body{
+background-color: black;
+}
+h1 {
+font-size: 28px !important;
+}
+.btn-primary:hover{
+    background-color:red;
+}
+canvas{
+    animation-name: name1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes name1{
+    from{box-shadow:2px 4px 30pX white}
+    to {box-shadow:2px 4px 30px pink}
+}
